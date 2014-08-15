@@ -1,0 +1,29 @@
+{
+  "name": "reglite",
+  "version": "0.1.0",
+  "description": "A private npm registry.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "node",
+    "proxy"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "raw-body": "^1.3.0",
+    "request": "^2.40.0",
+    "shasum": "^1.0.0"
+  },
+  "bin": {
+    "reglite" : "./app.js"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
