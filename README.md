@@ -1,4 +1,4 @@
-# Reglite - a private NPM registry
+# Reglite - a private npm registry
 
 ### Really?
 
@@ -8,7 +8,7 @@ Yea. You can publish to it.
 
 Stores packages in a folder. Proxies to an actual registry for packages you haven't published.
 
-### No, I mean how to I run this?
+### No, I mean how do I run this?
 
 ```
 npm install -g reglite
