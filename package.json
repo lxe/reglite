@@ -1,10 +1,14 @@
 {
   "name": "reglite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A private npm registry.",
   "main": "app.js",
   "scripts": {
     "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lxe/reglite"
   },
   "keywords": [
     "npm",

@@ -27,10 +27,6 @@ And publish packages!
 npm publish --registry="http://localhost:3000"
 ```
 
-### Is this the best?
-
-Yes.
-
 ## License
 
 ISC
