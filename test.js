@@ -1,5 +1,5 @@
 describe('reglite', function () {
-  it('should contain any bugs', function () {
+  it('should not contain any bugs', function () {
     return true;
   });
 });
