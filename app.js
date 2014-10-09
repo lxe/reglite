@@ -92,16 +92,18 @@ http.createServer(function (req, res) {
           };
           data['dist-tags'][version] = version;
           return data;
-        }, { 
-          name: pkgName, 
-          'dist-tags' : { }, 
-          'versions' : { } 
+        }, {
+          name: pkgName,
+          'dist-tags' : { },
+          'versions' : { }
         });
 
-        return res.end(JSON.stringify(d)); 
+        return res.end(JSON.stringify(d));
       }
+
+      return proxy();
     });
-  
+
   });
 
 }).listen(process.env.PORT || 3000, function () {
